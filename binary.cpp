@@ -56,3 +56,25 @@ void display()
     }
     cout << endl;
 }
+
+void binarySearch()
+{
+    int low = 0, high = nPanjang - 1;
+
+    while (low <= high)
+    {
+        int mid = (low + high) / 2;
+
+        if (element[mid] == x)
+        {
+            cout << "Data ditemukan di indeks " << mid << endl;
+            return;
+        }
+        else if (x < element[mid])
+            high = mid - 1;
+        else
+            low = mid + 1;
+    }
+
+    cout << "Data tidak ditemukan\n";
+}
