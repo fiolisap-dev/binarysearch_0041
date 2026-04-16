@@ -86,3 +86,14 @@ int main()
     display();
     binarySearch();
 }
+int main()
+{
+    input();
+    bubbleSortArray();
+    display();
+
+    cout << "\nMasukkan angka yang dicari: ";
+    cin >> x;
+
+    binarySearch();
+}
