@@ -99,3 +99,5 @@ int main()
 }
 
 cout << "\n=== PROGRAM SORTING & SEARCHING ===\n";
+
+cout << "Data tidak ditemukan dalam array\n";
