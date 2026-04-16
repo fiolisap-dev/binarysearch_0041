@@ -97,3 +97,5 @@ int main()
 
     binarySearch();
 }
+
+cout << "\n=== PROGRAM SORTING & SEARCHING ===\n";
