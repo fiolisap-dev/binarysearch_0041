@@ -78,3 +78,11 @@ void binarySearch()
 
     cout << "Data tidak ditemukan\n";
 }
+
+int main()
+{
+    input();
+    bubbleSortArray();
+    display();
+    binarySearch();
+}
